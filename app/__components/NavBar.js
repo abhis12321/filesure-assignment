@@ -19,13 +19,13 @@ export default function NavBar() {
             <Link href={'/'} className='hover:scale-110 hover:text-indigo-600'>Contacts</Link>
         </div>
 
-        <div className="flex gap-8 text-lime-600">
+        <div className="flex gap-8 text-lime-600 text-sm">
             <div className="hover:text-lime-400 cursor-default flex gap-3 items-center justify-center">
-                <FontAwesomeIcon size='xs' icon={faMobile} className='h-[1.5rem]' />
+                <FontAwesomeIcon size='xs' icon={faMobile} className='h-[1.2rem]' />
                 <div className="">+91 0000000000</div>
             </div>
             <div className="hover:text-lime-400 cursor-default flex gap-3 items-center justify-center">
-            <FontAwesomeIcon size='xs' icon={faEnvelope} className='h-[1.5rem]' />
+            <FontAwesomeIcon size='xs' icon={faEnvelope} className='h-[1.2rem]' />
                 <div className="">example@gmail.com</div>
             </div>
         </div>
