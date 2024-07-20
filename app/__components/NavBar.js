@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
     <div className='flex items-center justify-between px-6 h-[4.5rem] shadow-[0_0_1px_gray] font-medium'>
         <div className="flex">
-            <Image src={'/logo.png'} alt='logo' height={50} width={100} className='h-[4rem] w-auto' />
+            <Image src={'/logo.png'} alt='logo' height={50} width={100} className='h-[3.5rem] w-fit' />
         </div>
 
         <div className="flex gap-8">
