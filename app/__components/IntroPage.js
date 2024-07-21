@@ -4,7 +4,7 @@ import ContactForm from './ContactForm'
 export default function IntroPage() {
     return (
         <div className="w-full bg-slate-500/15">
-            <div className='h-nav w-[98%] max-w-[1300px] mx-auto flex items-center justify-start'>
+            <div className='h-nav w-[98%] md:w-[80%] max-w-[1300px] mx-auto flex items-center justify-start'>
                 <div className="max-w-[650px] flex flex-col gap-4">
                     <div className="text-4xl font-bold">
                         <span className="text-yellow-500">User-Centric Excellence </span>:

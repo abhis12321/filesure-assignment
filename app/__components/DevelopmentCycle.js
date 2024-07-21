@@ -7,7 +7,7 @@ export default function DevelopmentCycle() {
     return (
         <div className='py-10'>
             <div className="w-full [background:url('/planet.png')] bg-contain h-[140px] border-y-[1px] border-gray-300" />
-            <div className="flex justify-around py-10">
+            <div className="w-[98%] md:w-[80%] max-w-[1300px] mx-auto flex justify-between py-10">
                 <div className="flex flex-col gap-4 max-w-[500px]">
                     <h2 className="text-3xl font-bold font-sans tracking-normal">Full development cycle</h2>
                     <p className="text-[10px] font-semibold py-2">We use proved technologies</p>
