@@ -6,8 +6,8 @@ import React from 'react'
 export default function ProjectDetails({project}) {
   return (
     <div className='w-full flex justify-between'>
-      <div className="md:w-[55%] flex flex-col gap-8">
-        <h2 className="text-3xl font-bold font-sans tracking-normal pt-16 pb-4">Project 1</h2>
+      <div className="md:w-[55%] flex flex-col gap-12">
+        <h2 className="text-3xl font-bold font-sans tracking-normal">{project}</h2>
         <p className="text-gray-800">Crafted an innovative rental property management app, seamlessly integrating secure login, absence registration and a tenant notice board. Elevating the resident experience with user-friendly design and efficient communication channels</p>
 
         <p className="text-sm text-gray-500 font-semibold">Business anallysis / iOS / Android / UI/UX Design</p>
