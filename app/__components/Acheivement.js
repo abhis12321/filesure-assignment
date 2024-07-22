@@ -1,11 +1,13 @@
 import { faCreativeCommonsSampling } from '@fortawesome/free-brands-svg-icons'
 import { faBagShopping, faBowlFood, faBriefcase, faBuildingColumns, faBullseye, faCar, faCirclePlay, faGamepad, faGraduationCap, faHeartCirclePlus, faMobile, faOm, faPersonDigging, faTv } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Link from 'next/link'
 import React from 'react'
+import ProjectDetails from './ProjectDetails'
 
 export default function Acheivement() {
     return (
-        <div className='py-10 bg-gray-500/15'>
+        <div className='py-10 bg-gray-400/10'>
             <div className='w-[98%] md:w-[80%] max-w-[1300px] mx-auto'>
                 <h2 className="max-w-[450px] text-3xl font-bold font-sans tracking-normal">Developed more than <span className="text-lime-600">100</span> projects in <span className="text-lime-600">30</span> industries</h2>
                 <div className="w-full flex gap-8 flex-wrap items center justify-between py-5">
@@ -76,9 +78,16 @@ export default function Acheivement() {
 
                 
                 <h2 className="max-w-[450px] text-3xl font-bold font-sans tracking-normal pt-16 pb-4">Projects we are proud of</h2>
-                <p className="font-medium text-lg">Our software development company is truly proud of the wonderful clients we have worked with. We enjoy a long-term partnership</p>
+                <p className="font-medium text-sm">Our software development company is truly proud of the wonderful clients we have worked with. We enjoy a long-term partnership</p>
 
-                <div className="flex"></div>
+                <div className="flex items-center justify-start gap-8 text-sm py-10">
+                    <Link href={'/'} >Project 1</Link>
+                    <Link href={'/'} >Project 2</Link>
+                    <Link href={'/'} >Project 3</Link>
+                    <Link href={'/'} >Project 4</Link>
+                    <Link href={'/'} >Project 5</Link>
+                </div>
+                <ProjectDetails />
             </div>
         </div>
     )
