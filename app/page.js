@@ -4,6 +4,7 @@ import DevelopmentCycle from './__components/DevelopmentCycle'
 import Acheivement from './__components/Acheivement'
 import DiscussProject from './__components/DiscussProject'
 import DevelopmentStages from './__components/DevelopmentStages'
+import TeamInfo from './__components/TeamInfo'
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
       <Acheivement />
       <DiscussProject />
       <DevelopmentStages />
+      <TeamInfo />
     </div>
   )
 }
