@@ -13,7 +13,7 @@ export default function IntroPage() {
                     <div className="font-medium text-gray-800/90">
                         Experience a Seamless Digital Journey with <span className="text-lime-600 font-bold">Desun</span> - Where Everyline of Code Resolves Your Challanges and <span className="text-yellow-500 font-bold">Elevates Your App Experience</span> to Unparalleled Heights
                     </div>
-                    <ContactForm />
+                    <ContactForm button={"Get consultation"}/>
                 </div>
             </div>
         </div>

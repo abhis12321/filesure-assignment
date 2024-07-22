@@ -2,14 +2,14 @@
 import Image from 'next/image';
 import React, { useState } from 'react'
 
-export default function ContactForm() {
+export default function ContactForm({button}) {
     const [name , setName] = useState("My Name");
     const [mobileNo , setMobileNo] = useState("0000000000");
     const [businessName , setBusinessName] = useState("ABC Technologies PVT LTD");
     const [email , setEmail] = useState("example@gmail.com");
 
     return (
-        <div className='max-w-[600px] bg-white px-6 py-4 rounded-xl flex gap-8 items-end'>
+        <div className='max-w-[600px] bg-white text-black px-6 py-4 rounded-xl flex gap-8 items-end'>
 
             <form className="flex flex-wrap items-center justify-between">
                 <h3 className="font-bold text-gray-800 tracking-wider">Leave your contacts and we will call you back within 30 minutes</h3>
@@ -35,7 +35,7 @@ export default function ContactForm() {
                     <input type="email" className='outline-none text-sm py-1' value={email} onChange={e => setEmail(e.target.value)}/>
                 </div>
             </form>
-            <button className="py-2 px-6 my-2 bg-lime-600/70 hover:bg-lime-600 rounded-lg h-fit text-white text-xs">Get consultation</button>
+            <button className="py-2 px-6 my-2 min-w-[100px] bg-lime-600/70 hover:bg-lime-600 rounded-lg h-fit text-white text-xs">{button}</button>
         </div>
     )
 }
