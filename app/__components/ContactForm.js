@@ -9,7 +9,7 @@ export default function ContactForm({button}) {
     const [email , setEmail] = useState("example@gmail.com");
 
     return (
-        <div className='max-w-[600px] bg-white text-black px-6 py-4 rounded-xl flex gap-8 items-end'>
+        <div className='max-w-[600px] bg-white text-black px-6 py-4 rounded-xl flex gap-8 items-end shadow-[0_0_8px_gray]'>
 
             <form className="flex flex-wrap items-center justify-between">
                 <h3 className="font-bold text-gray-800 tracking-wider">Leave your contacts and we will call you back within 30 minutes</h3>
